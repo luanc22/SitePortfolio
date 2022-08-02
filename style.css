@@ -1,0 +1,125 @@
+body{ height:100vh; margin:0; background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/3423664-black-papercut-background-vector-3d-illustration-gr%C3%A1tis-vetor.jpg") }
+footer{ min-height:50px; background:#e8e8e8; }
+
+body{ 
+  display: flex; 
+  flex-direction: column; 
+}
+
+footer{
+  margin-top: auto; 
+  text-align: center;
+  color: #414a4c;
+  font-weight: normal;
+  border-top: 1px solid black;
+  padding: 5px;
+  padding-top: 10px;
+  font-size: 12;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: disc;
+     width: 25%;
+    margin: 0 auto;
+}
+
+li {
+  font-size: 18px;
+  text-align:left;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: #000;
+    background-color: #e8e8e8;
+    border-bottom: 1px solid #000;
+}
+
+.titulo h2 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.titulo a {
+    padding: 10px;
+}
+
+.primeiroicone{
+    padding-left: 15px;
+}
+
+.textotitulo {
+    padding: 10px;
+    font-weight: lighter;
+    border-right:  1px solid #000
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e8e8e8;
+    margin: auto;
+    width: 50%;
+    height: 75%;
+    border: 3px solid #000;
+    padding: 10px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+.card h1{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+
+
+.imagemcard{
+    padding: 20px;
+}
+
+.imagemcard img{
+    border-radius: 50%;
+}
+
+.textocard {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 55%;
+    padding: 5px;
+}   
+
+.conhecimentos {
+    border-right:  2px solid #000;
+    width: 50%;
+    list-style-type: disc;
+    
+}
+
+.conhecimentos h3 {
+    font-size: 25px;
+}
+
+.sobremim {
+    width: 50%;
+}
+
+.sobremim h3 {
+    font-size: 25px;
+}
+
+.sobremim p {
+    margin-bottom: 30px;
+    margin: 15px;
+}
